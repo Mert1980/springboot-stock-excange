@@ -13,7 +13,7 @@ public class StockServiceImpl implements StockService {
     // TODO What if no Stock could be found for the given stockId? The method needs to return a Stock, so what will we return?
     public Stock getStock(String stockId){
         Stock stock = stockRepository.getStockInformation(stockId);
-        stock.setPrice(externalStockInformationService.getPriceInEuroForStock(stockId));
+        stock.getPrice().setPrice(externalStockInformationService.getPriceInEuroForStock(stockId));
         return stock;
     }
 }

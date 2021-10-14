@@ -2,8 +2,8 @@ package com.switchfully.controller;
 
 
 import com.switchfully.model.Stock;
-import com.switchfully.model.StockDto;
-import com.switchfully.model.StockMapper;
+import com.switchfully.dto.StockDto;
+import com.switchfully.mapper.StockMapper;
 import com.switchfully.service.StockService;
 import com.switchfully.service.StockServiceImpl;
 

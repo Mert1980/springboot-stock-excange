@@ -11,6 +11,10 @@ public class Stock {
         this.name = name;
     }
 
+    public StockPrice getPrice() {
+        return price;
+    }
+
     public void setPrice(StockPrice price) {
         this.price = price;
     }
