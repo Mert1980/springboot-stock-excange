@@ -4,7 +4,9 @@ import com.switchfully.external.ExternalStockInformationService;
 import com.switchfully.model.Stock;
 import com.switchfully.repository.StockRepository;
 import com.switchfully.repository.StockRepositoryImpl;
+import org.springframework.stereotype.Service;
 
+@Service
 public class StockServiceImpl implements StockService {
 
     StockRepository stockRepository = new StockRepositoryImpl();

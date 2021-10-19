@@ -1,6 +1,5 @@
 package com.switchfully.external;
 
-import com.switchfully.model.StockPrice;
 import org.apache.commons.lang3.RandomUtils;
 
 import java.math.BigDecimal;
